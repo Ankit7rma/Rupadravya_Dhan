@@ -1,7 +1,6 @@
-import { BrowserRouter, Link, Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import { CryptoDetails, Cryptocurrencies, Exchanges, HomePage, Navbar, News } from "./components";
-import { Layout, Space } from "antd";
 import Typography from "antd/es/typography/Typography";
 
 function App() {
