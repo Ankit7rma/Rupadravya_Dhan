@@ -3,6 +3,7 @@ import "./App.css";
 import { CryptoDetails, Cryptocurrencies, Exchanges, HomePage, Navbar, News } from "./components";
 import Typography from "antd/es/typography/Typography";
 
+
 function App() {
   const appRouter = createBrowserRouter([
     {
