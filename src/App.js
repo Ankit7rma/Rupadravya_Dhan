@@ -1,9 +1,17 @@
-import './App.css';
-
+import "./App.css";
+import {Navbar,Footer,Main} from "./components";
 function App() {
   return (
     <div className="App">
-      App
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="main">
+        <Main />
+      </div>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }
